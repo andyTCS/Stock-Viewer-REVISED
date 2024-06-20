@@ -27,45 +27,6 @@ namespace Stock_Viewer
 
         private Form2 form2;                                                // This form generates a Form2 that displays candlestick data for analysis upon using the load_CSV_data function below
 
-        private void dateTimePicker_start_ValueChanged(object sender, EventArgs e)
-        {
-            // Check if the form's candlestick list is null or empty (no CSV file loaded)
-            if (this_forms_smartCandlesticks_list == null || this_forms_smartCandlesticks_list.Count == 0)
-            {
-                MessageBox.Show("Please select a CSV file first.", "CSV File Not Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; // Exit the event handler
-            }
-
-            // Only select candlestick data from the selected range of dates
-            DateTime startDate = dateTimePicker_start.Value.Date;
-            DateTime endDate = dateTimePicker_end.Value.Date;
-            var filtered_dates_data = this_forms_smartCandlesticks_list.Where(data => data.Date >= startDate && data.Date <= endDate).ToList();
-
-            //Populate chart here and update to filtered candlesticks
-            form2.populate_Chart_Daily(filtered_dates_data);
-            form2.populate_Chart_Volume(filtered_dates_data);
-            form2.populate_ComboBox_Patterns(filtered_dates_data);
-        }
-
-        private void dateTimePicker_end_ValueChanged(object sender, EventArgs e)
-        {
-            // Check if the form's candlestick list is null or empty (no CSV file loaded)
-            if (this_forms_smartCandlesticks_list == null || this_forms_smartCandlesticks_list.Count == 0)
-            {
-                MessageBox.Show("Please select a CSV file first.", "CSV File Not Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return; // Exit the event handler
-            }
-
-            // Only select candlestick data from the selected range of dates
-            DateTime startDate = dateTimePicker_start.Value.Date;
-            DateTime endDate = dateTimePicker_end.Value.Date;
-            var filtered_dates_data = this_forms_smartCandlesticks_list.Where(data => data.Date >= startDate && data.Date <= endDate).ToList();
-
-            //Populate chart here and update to filtered candlesticks
-            form2.populate_Chart_Daily(filtered_dates_data);
-            form2.populate_Chart_Volume(filtered_dates_data);
-            form2.populate_ComboBox_Patterns(filtered_dates_data);
-        }
 
         // Event for clicking on the load button in the load form
         private void button_load_Click(object sender, EventArgs e)

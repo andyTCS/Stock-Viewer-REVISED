@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox_form1_description.Text" xml:space="preserve">
+    <value>Select a CSV file or multiple CSV files for stock analysis. Each form loaded per CSV file will act independently of each other meaning analysis and exploration may be done without causing any conflicts on other opened forms. Example CSV files containing stock data is included within the solution folder of this project. </value>
+  </data>
 </root>
