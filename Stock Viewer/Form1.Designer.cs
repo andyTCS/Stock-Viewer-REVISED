@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Stock_Viewer_Load));
             this.button_load = new System.Windows.Forms.Button();
-            this.textBox_form1_description = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button_load
             // 
-            this.button_load.Location = new System.Drawing.Point(32, 29);
+            this.button_load.Location = new System.Drawing.Point(36, 24);
             this.button_load.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_load.Name = "button_load";
             this.button_load.Size = new System.Drawing.Size(132, 46);
@@ -44,33 +44,31 @@
             this.button_load.UseVisualStyleBackColor = true;
             this.button_load.Click += new System.EventHandler(this.button_load_Click);
             // 
-            // textBox_form1_description
+            // richTextBox1
             // 
-            this.textBox_form1_description.Location = new System.Drawing.Point(252, 29);
-            this.textBox_form1_description.Multiline = true;
-            this.textBox_form1_description.Name = "textBox_form1_description";
-            this.textBox_form1_description.Size = new System.Drawing.Size(333, 173);
-            this.textBox_form1_description.TabIndex = 3;
-            this.textBox_form1_description.Text = resources.GetString("textBox_form1_description.Text");
+            this.richTextBox1.Location = new System.Drawing.Point(206, 24);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(351, 156);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // Stock_Viewer_Load
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(680, 254);
-            this.Controls.Add(this.textBox_form1_description);
+            this.ClientSize = new System.Drawing.Size(577, 205);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button_load);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Stock_Viewer_Load";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.Button button_load;
-        private System.Windows.Forms.TextBox textBox_form1_description;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

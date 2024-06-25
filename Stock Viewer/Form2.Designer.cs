@@ -34,6 +34,7 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.chart_price = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart_volume = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comboBox_candleStick_pattern_dropDown = new System.Windows.Forms.ComboBox();
@@ -44,9 +45,9 @@
             this.label_dateTime_start = new System.Windows.Forms.Label();
             this.label_dateTime_end = new System.Windows.Forms.Label();
             this.label_note = new System.Windows.Forms.Label();
-            this.textBox_note = new System.Windows.Forms.TextBox();
             this.label_chart_price = new System.Windows.Forms.Label();
             this.label_chart_volume = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.chart_price)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart_volume)).BeginInit();
             this.SuspendLayout();
@@ -120,7 +121,7 @@
             // 
             // dateTimePicker_start
             // 
-            this.dateTimePicker_start.Location = new System.Drawing.Point(1347, 415);
+            this.dateTimePicker_start.Location = new System.Drawing.Point(1347, 551);
             this.dateTimePicker_start.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker_start.Name = "dateTimePicker_start";
             this.dateTimePicker_start.Size = new System.Drawing.Size(298, 26);
@@ -129,7 +130,7 @@
             // 
             // dateTimePicker_end
             // 
-            this.dateTimePicker_end.Location = new System.Drawing.Point(1347, 582);
+            this.dateTimePicker_end.Location = new System.Drawing.Point(1347, 655);
             this.dateTimePicker_end.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dateTimePicker_end.Name = "dateTimePicker_end";
             this.dateTimePicker_end.Size = new System.Drawing.Size(298, 26);
@@ -139,7 +140,7 @@
             // label_dateTime_start
             // 
             this.label_dateTime_start.AutoSize = true;
-            this.label_dateTime_start.Location = new System.Drawing.Point(1342, 374);
+            this.label_dateTime_start.Location = new System.Drawing.Point(1344, 513);
             this.label_dateTime_start.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_dateTime_start.Name = "label_dateTime_start";
             this.label_dateTime_start.Size = new System.Drawing.Size(83, 20);
@@ -149,7 +150,7 @@
             // label_dateTime_end
             // 
             this.label_dateTime_end.AutoSize = true;
-            this.label_dateTime_end.Location = new System.Drawing.Point(1342, 542);
+            this.label_dateTime_end.Location = new System.Drawing.Point(1342, 615);
             this.label_dateTime_end.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_dateTime_end.Name = "label_dateTime_end";
             this.label_dateTime_end.Size = new System.Drawing.Size(77, 20);
@@ -166,18 +167,6 @@
             this.label_note.Size = new System.Drawing.Size(56, 20);
             this.label_note.TabIndex = 9;
             this.label_note.Text = "NOTE:";
-            // 
-            // textBox_note
-            // 
-            this.textBox_note.Location = new System.Drawing.Point(1347, 215);
-            this.textBox_note.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox_note.Multiline = true;
-            this.textBox_note.Name = "textBox_note";
-            this.textBox_note.Size = new System.Drawing.Size(358, 104);
-            this.textBox_note.TabIndex = 10;
-            this.textBox_note.Text = "The Candlestick Pattern dropdown box only shows available patterns found from the" +
-    " candlesticks in the CSV files. Different files may show different available can" +
-    "dlestick patterns.";
             // 
             // label_chart_price
             // 
@@ -199,14 +188,22 @@
             this.label_chart_volume.TabIndex = 12;
             this.label_chart_volume.Text = "Chart Volume";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(1347, 229);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(366, 242);
+            this.richTextBox1.TabIndex = 13;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(2028, 1217);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label_chart_volume);
             this.Controls.Add(this.label_chart_price);
-            this.Controls.Add(this.textBox_note);
             this.Controls.Add(this.label_note);
             this.Controls.Add(this.label_dateTime_end);
             this.Controls.Add(this.label_dateTime_start);
@@ -239,8 +236,8 @@
         private System.Windows.Forms.Label label_dateTime_start;
         private System.Windows.Forms.Label label_dateTime_end;
         private System.Windows.Forms.Label label_note;
-        private System.Windows.Forms.TextBox textBox_note;
         private System.Windows.Forms.Label label_chart_price;
         private System.Windows.Forms.Label label_chart_volume;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

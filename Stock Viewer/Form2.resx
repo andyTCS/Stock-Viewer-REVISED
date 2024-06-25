@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>- The Candlestick Pattern dropdown box only shows available patterns found from the candlesticks in the CSV files. 
+- Different files may show different available candlestick patterns.
+
+- Red candlesticks and annotations indicate a decrease in stock value
+
+- Green candlesticks and annotations indicate an increase in stock value</value>
+  </data>
 </root>
