@@ -155,6 +155,7 @@ namespace Stock_Viewer
             }
 
             chart_price.ChartAreas[0].AxisY.Title = "Price";
+            
         }
 
         public void populate_Chart_Volume(List<smartCandlestick> data) 

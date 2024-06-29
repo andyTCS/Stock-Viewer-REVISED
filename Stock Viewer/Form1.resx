@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>- Select a CSV file containing stock data
+
+- Or select multiple CSV files for analysis
+
+Note: Example CSV files are included within
+          the solution folder. CSV files can also
+          be downloaded from Yahoo finance.
+</value>
+  </data>
 </root>

@@ -9,3 +9,14 @@ C:\Users\Andy Nguyen\Documents\MyGitProjects\Stock-Viewer-REVISED\Stock Viewer\o
 C:\Users\Andy Nguyen\Documents\MyGitProjects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.pdb
 C:\Users\Andy Nguyen\Documents\MyGitProjects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock_Viewer.Stock_Viewer_Load.resources
 C:\Users\Andy Nguyen\Documents\MyGitProjects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock_Viewer.Form2.resources
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\bin\Debug\Stock Viewer.exe.config
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\bin\Debug\Stock Viewer.exe
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\bin\Debug\Stock Viewer.pdb
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.csproj.AssemblyReference.cache
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock_Viewer.Stock_Viewer_Load.resources
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock_Viewer.Form2.resources
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock_Viewer.Properties.Resources.resources
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.csproj.GenerateResource.cache
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.csproj.CoreCompileInputs.cache
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.exe
+C:\Users\andyx\Downloads\Programming\Github projects\Stock-Viewer-REVISED\Stock Viewer\obj\Debug\Stock Viewer.pdb
